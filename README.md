@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# Notes App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Project Description
 
-## Setup
+A simple "Notes" application built with **Nuxt.js**, **TypeScript**, and **Tailwind CSS**. The app allows users to create, edit, and delete notes. The project follows the **Feature-Sliced Design (FSD)** architecture principles.
 
-Make sure to install dependencies:
+### Functional Requirements:
+- Create a new note with a title and content.
+- Display a list of all created notes with their titles.
+- Edit the title and content of an existing note.
+- Delete any note.
 
-```bash
-# npm
-npm install
+## Technologies Used
 
-# pnpm
-pnpm install
+- **Nuxt.js** (for SSR/SSG)
+- **TypeScript**
+- **Tailwind CSS** (for styling)
+- **Pinia** (for state management)
+- **Yup & Vue-Validate** (for form validation)
+- **Mock Data** (to simulate backend interactions)
 
-# yarn
-yarn install
+## Installation and Setup
 
-# bun
-bun install
-```
+Clone the Repository:
 
-## Development Server
+- git clone https://github.com/NikitOS-1/nuxt.git
+- cd nuxt
 
-Start the development server on `http://localhost:3000`:
+## Install Dependencies:
 
-```bash
-# npm
-npm run dev
+- npm install
 
-# pnpm
-pnpm dev
+## Run the Development Server:
 
-# yarn
-yarn dev
+- npm run dev
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Open the Application:
+- Visit http://localhost:3000 in your browser to view the app.
