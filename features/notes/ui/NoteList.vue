@@ -29,7 +29,6 @@
       <div v-else class="transition-all flex flex-col">
         <Input v-model="note.title" label="Title" :error="errors.title" class="w-full mb-4"/>
         <Input v-model="note.content" label="Content" :error="errors.content" type="textarea" class="w-full"/>
-
         <div class="flex justify-end space-x-2 mt-4">
           <button
               @click="saveNote"
