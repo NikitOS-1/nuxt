@@ -6,13 +6,13 @@
         v-model="model"
         type="text"
         :placeholder="placeholder"
-        class="border rounded-lg w-full p-2 focus:ring-2 focus:ring-blue-400"
+        class="border rounded-lg w-full p-2 focus:ring focus:ring-blue-200 outline-0"
     />
     <textarea
         v-else
         v-model="model"
         :placeholder="placeholder"
-        class="border rounded-lg w-full p-2 focus:ring-2 focus:ring-blue-400 h-24"
+        class="border rounded-lg w-full p-2 focus:ring focus:ring-blue-200 outline-0 h-24"
     ></textarea>
     <p v-if="error" class="text-red-500 text-sm mt-1">{{ error }}</p>
   </div>
